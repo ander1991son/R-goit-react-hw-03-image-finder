@@ -1,7 +1,8 @@
-import css from './ImageGallery.module.css';
-import { nanoid } from 'nanoid';
+import React from 'react';
 import PropTypes from 'prop-types';
+import { nanoid } from 'nanoid';
 import ImageGalleryItem from '../ImageGalleryItem/ImageGalleryItem';
+import css from './ImageGallery.module.css';
 
 const ImageGallery = ({ images, onImageClick }) => {
   return (
